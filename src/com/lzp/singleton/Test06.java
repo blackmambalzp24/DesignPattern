@@ -8,7 +8,7 @@ package com.lzp.singleton;
  */
 public class Test06 {
 
-	private static Test06 instance = null;
+	private static volatile Test06 instance = null;
 
 	private Test06() {
 	}
